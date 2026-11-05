@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" width="800" height="1000">
+    <defs>
+      <radialGradient id="studioGlow" cx="50%" cy="44%" r="60%">
+        <stop offset="0%" stop-color="#DFD9CE" stop-opacity="0.28"/>
+        <stop offset="50%" stop-color="#221E1D" stop-opacity="0.92"/>
+        <stop offset="100%" stop-color="#141312" stop-opacity="1"/>
+      </radialGradient>
+      <linearGradient id="glassBody" x1="0%" y1="0%" x2="100%" y2="100%">
+        <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.22"/>
+        <stop offset="20%" stop-color="#B8B2A6" stop-opacity="0.72"/>
+        <stop offset="80%" stop-color="#B8B2A6" stop-opacity="0.88"/>
+        <stop offset="100%" stop-color="#0D0C0C" stop-opacity="0.95"/>
+      </linearGradient>
+      <linearGradient id="capGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+        <stop offset="0%" stop-color="#171615"/>
+        <stop offset="35%" stop-color="#3A3531"/>
+        <stop offset="55%" stop-color="#B7A58D"/>
+        <stop offset="85%" stop-color="#1F1D1B"/>
+        <stop offset="100%" stop-color="#121110"/>
+      </linearGradient>
+      <linearGradient id="plinth" x1="0%" y1="0%" x2="0%" y2="100%">
+        <stop offset="0%" stop-color="#2C2825"/>
+        <stop offset="100%" stop-color="#171615"/>
+      </linearGradient>
+    </defs>
+
+    <!-- Studio Background -->
+    <rect width="800" height="1000" fill="#141312"/>
+    <rect width="800" height="1000" fill="url(#studioGlow)"/>
+
+    <!-- Architectural Shadow Beam -->
+    <polygon points="0,160 800,40 800,280 0,460" fill="#EDE5D9" opacity="0.025"/>
+    <circle cx="400" cy="450" r="220" fill="#DFD9CE" opacity="0.1"/>
+
+    <!-- Travertine Stone Plinth -->
+    <polygon points="170,740 630,740 690,820 110,820" fill="#332E2A"/>
+    <rect x="110" y="820" width="580" height="180" fill="url(#plinth)"/>
+    <line x1="110" y1="820" x2="690" y2="820" stroke="#B7A58D" stroke-opacity="0.35" stroke-width="1.5"/>
+
+    <!-- Bottle Shadow on Plinth -->
+    <ellipse cx="400" cy="775" rx="135" ry="22" fill="#090808" opacity="0.75"/>
+
+    <!-- Perfume Flacon -->
+    <g transform="translate(0, 10)">
+      <!-- Heavy Cap -->
+      <rect x="342" y="210" width="116" height="96" rx="4" fill="url(#capGrad)" stroke="#B7A58D" stroke-opacity="0.4"/>
+      <rect x="368" y="306" width="64" height="24" fill="#B7A58D"/>
+      <line x1="342" y1="230" x2="458" y2="230" stroke="#B7A58D" stroke-opacity="0.45"/>
+
+      <!-- Outer Thick Glass Flacon -->
+      <rect x="265" y="330" width="270" height="430" rx="38" fill="url(#glassBody)" stroke="#EDE5D9" stroke-opacity="0.45" stroke-width="2"/>
+
+      <!-- Inner Liquid Chamber & Heavy Glass Base -->
+      <rect x="283" y="352" width="234" height="360" rx="26" fill="#B8B2A6" opacity="0.68"/>
+      <!-- Internal Atomizer Tube -->
+      <path d="M400,330 Q402,520 390,710" stroke="#EDE5D9" stroke-opacity="0.35" stroke-width="2.5" fill="none"/>
+      <!-- Glass Highlight Left -->
+      <rect x="278" y="345" width="14" height="390" rx="6" fill="#FFFFFF" opacity="0.18"/>
+      <!-- Glass Base Refraction -->
+      <path d="M267,715 L533,715 L520,756 L280,756 Z" fill="#EDE5D9" opacity="0.16"/>
+
+      <!-- Textured Ivory Atelier Label -->
+      <rect x="304" y="430" width="192" height="215" fill="#EDE5D9" stroke="#B7A58D" stroke-width="1.5"/>
+      <rect x="312" y="438" width="176" height="199" fill="none" stroke="#171615" stroke-opacity="0.22" stroke-width="0.8"/>
+
+      <!-- Label Typography -->
+      <text x="400" y="468" text-anchor="middle" font-family="sans-serif" font-size="9" font-weight="600" fill="#632F39" letter-spacing="3">BYREDO</text>
+      <line x1="355" y1="482" x2="445" y2="482" stroke="#B7A58D" stroke-width="1"/>
+      <text x="400" y="526" text-anchor="middle" font-family="Georgia, serif" font-size="20" fill="#171615" letter-spacing="1">Cèdre Blanc Vapeur</text>
+      <text x="400" y="556" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#5A534A" letter-spacing="2.5">EAU DE PARFUM</text>
+      <text x="400" y="612" text-anchor="middle" font-family="Georgia, serif" font-size="9" fill="#171615" letter-spacing="3.5">INHYPE ATELIER</text>
+    </g>
+
+    <!-- Subtle Editorial Footer Note -->
+    <text x="400" y="925" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#B7A58D" letter-spacing="4" opacity="0.8">HINOKI WOOD · PINE NEEDLE · SENCHA</text>
+  </svg>

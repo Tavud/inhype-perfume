@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" width="800" height="1000">
+    <defs>
+      <linearGradient id="bg2" x1="0%" y1="0%" x2="100%" y2="100%">
+        <stop offset="0%" stop-color="#1E1C1A"/>
+        <stop offset="100%" stop-color="#121110"/>
+      </linearGradient>
+    </defs>
+    <rect width="800" height="1000" fill="url(#bg2)"/>
+    <circle cx="430" cy="480" r="260" fill="#CDBFA9" opacity="0.14"/>
+    <rect x="80" y="770" width="640" height="160" fill="#25221F" stroke="#B7A58D" stroke-opacity="0.25"/>
+
+    <!-- Presentation Box on Left -->
+    <g transform="translate(175, 250)">
+      <rect x="0" y="0" width="230" height="520" fill="#EDE5D9" stroke="#B7A58D" stroke-width="2"/>
+      <rect x="14" y="14" width="202" height="492" fill="none" stroke="#171615" stroke-opacity="0.2"/>
+      <text x="115" y="120" text-anchor="middle" font-family="Georgia, serif" font-size="22" fill="#171615" letter-spacing="5">INHYPE</text>
+      <text x="115" y="142" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#632F39" letter-spacing="4">PERFUME ATELIER</text>
+      <line x1="65" y1="240" x2="165" y2="240" stroke="#B7A58D"/>
+      <text x="115" y="280" text-anchor="middle" font-family="Georgia, serif" font-size="18" fill="#171615">Discovery Coffret</text>
+      <text x="115" y="308" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#5A534A" letter-spacing="2.5">5 × 3 ML ATOMIZERS</text>
+      <rect x="75" y="420" width="80" height="24" fill="#632F39"/>
+      <text x="115" y="436" text-anchor="middle" font-family="sans-serif" font-size="7" fill="#EDE5D9" letter-spacing="2">KAZAKHSTAN</text>
+    </g>
+
+    <!-- Bottle Next to Box -->
+    <g transform="translate(380, 320)">
+      <rect x="68" y="0" width="84" height="72" rx="3" fill="#171615" stroke="#B7A58D" stroke-opacity="0.5"/>
+      <rect x="88" y="72" width="44" height="18" fill="#B7A58D"/>
+      <rect x="15" y="90" width="190" height="360" rx="12" fill="#9E7B56" fill-opacity="0.82" stroke="#EDE5D9" stroke-opacity="0.5" stroke-width="2"/>
+      <rect x="42" y="175" width="136" height="165" fill="#EDE5D9"/>
+      <text x="110" y="218" text-anchor="middle" font-family="sans-serif" font-size="7" fill="#632F39" letter-spacing="2">INHYPE ATELIER</text>
+      <text x="110" y="258" text-anchor="middle" font-family="Georgia, serif" font-size="15" fill="#171615">Discovery Coffret</text>
+      <text x="110" y="284" text-anchor="middle" font-family="sans-serif" font-size="7" fill="#5A534A" letter-spacing="2">5 × 3 ML ATOMIZERS</text>
+    </g>
+
+    <text x="400" y="860" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#B7A58D" letter-spacing="4">ATELIER PRESENTATION &amp; PACKAGING</text>
+  </svg>

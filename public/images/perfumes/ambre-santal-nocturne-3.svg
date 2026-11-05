@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" width="800" height="1000">
+    <rect width="800" height="1000" fill="#171615"/>
+    <circle cx="400" cy="500" r="290" fill="#59291F" opacity="0.24"/>
+    <circle cx="400" cy="500" r="220" fill="none" stroke="#B7A58D" stroke-opacity="0.3" stroke-dasharray="4 6"/>
+    <circle cx="400" cy="500" r="150" fill="none" stroke="#EDE5D9" stroke-opacity="0.2"/>
+    <rect x="140" y="180" width="520" height="640" fill="none" stroke="#B7A58D" stroke-opacity="0.25"/>
+    <text x="400" y="270" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#B7A58D" letter-spacing="5">OLFACTORY ARCHITECTURE</text>
+    <text x="400" y="485" text-anchor="middle" font-family="Georgia, serif" font-size="34" fill="#EDE5D9" letter-spacing="2">Ambre Santal Nocturne</text>
+    <line x1="320" y1="515" x2="480" y2="515" stroke="#632F39" stroke-width="2"/>
+    <text x="400" y="555" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#B7A58D" letter-spacing="3.5">BLACK VANILLA · BENZOIN · MYSORE SANTAL</text>
+    <text x="400" y="740" text-anchor="middle" font-family="Georgia, serif" font-size="13" fill="#EDE5D9" opacity="0.7" letter-spacing="3">INHYPE PERFUME ATELIER</text>
+  </svg>
